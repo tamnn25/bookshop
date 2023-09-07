@@ -1,0 +1,10 @@
+venv/
+db.sqlite3
+__pycache__/
+hooks/
+info/
+refs/
+objects/
+config
+description
+HEAD

@@ -16,12 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.http import JsonResponse
-from django.urls import path
-
-def home(request):
-    return JsonResponse({'foo':'bar'})
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home)
+    path('', include('customers.urls')),
 ]

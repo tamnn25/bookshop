@@ -8,3 +8,5 @@ objects/
 config
 description
 HEAD
+**/.DS_Store
+__init__.py
